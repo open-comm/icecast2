@@ -1,0 +1,8 @@
+icecast:
+  environment:
+  - ICECAST_SOURCE_PASSWORD=SourcePassword
+  - ICECAST_ADMIN_PASSWORD=AdminPassword
+  - ICECAST_PASSWORD=IcecastPassword
+  - ICECAST_RELAY_PASSWORD=RelayPassword
+  ports:
+  - 8000:8000
